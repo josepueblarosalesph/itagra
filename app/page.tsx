@@ -23,7 +23,7 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#inicio" aria-label="Itagra, inicio">
-          <Image src="/images/itagra-logo.png" alt="Itagra Parcelas de Agrado" width={194} height={80} priority />
+          <img src="/images/itagra-logo.png" alt="Itagra Parcelas de Agrado" width="194" height="80" />
         </a>
         <nav className="desktop-nav" aria-label="Navegación principal">
           <a href="#itagra">Nosotros</a>
@@ -65,7 +65,7 @@ export default function Home() {
           <h2>En Itagra creemos que elegir dónde vivir es también elegir <em>cómo queremos vivir.</em></h2>
           <div className="intro-bottom">
             <p>Creamos parcelas de agrado con identidad, infraestructura y una conexión honesta con el paisaje. Proyectos pensados para disfrutar hoy y proyectarse hacia mañana.</p>
-            <Image src="/images/itagra-mark.png" alt="Símbolo Itagra" width={126} height={126} />
+            <img src="/images/itagra-mark.png" alt="Símbolo Itagra" width="126" height="126" />
           </div>
         </div>
       </section>
@@ -78,7 +78,7 @@ export default function Home() {
         <div className="project-info">
           <p className="eyebrow"><span /> Proyectos · 01 activo</p>
           <div className="project-number">01</div>
-          <Image className="pircas-logo" src="/images/pircas-logo.png" alt="Pircas de Lliu Lliu" width={270} height={91} />
+          <img className="pircas-logo" src="/images/pircas-logo.png" alt="Pircas de Lliu Lliu" width="270" height="91" />
           <h2>Entre la naturaleza<br />y la ciudad.</h2>
           <p>Parcelas planas de 5.000 m² en Limache, con rol propio, agua, luz y una ubicación conectada con la ciudad.</p>
           <div className="project-tags"><span>Limache</span><span>V Región</span><span>Desde 2.250 UF</span></div>
@@ -126,7 +126,7 @@ export default function Home() {
 
       <footer>
         <div className="footer-top">
-          <Image src="/images/itagra-logo.png" alt="Itagra Parcelas de Agrado" width={220} height={91} />
+          <img src="/images/itagra-logo.png" alt="Itagra Parcelas de Agrado" width="220" height="91" />
           <p>Proyectos para vivir con más<br />naturaleza, espacio y propósito.</p>
           <div className="footer-links">
             <a href="#itagra">Nosotros</a><a href="#proyecto">Proyectos</a><a href="https://pircasdelliulliu.cl/contacto/" target="_blank" rel="noreferrer">Contacto</a>
