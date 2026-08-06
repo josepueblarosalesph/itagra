@@ -118,7 +118,8 @@ export default function Home() {
           <div className="contact-details">
             <div><small>Proyecto disponible</small><strong>Pircas de Lliu Lliu</strong></div>
             <div><small>Ubicación</small><strong>Limache · V Región</strong></div>
-            <div><small>Atención comercial</small><strong>Formulario en el sitio del proyecto</strong></div>
+            <div><small>Correo</small><a href="mailto:info@itagra.cl">info@itagra.cl</a></div>
+            <div><small>Teléfono</small><a href="tel:+56948544996">+56 9 4854 4996</a></div>
             <a href="https://pircasdelliulliu.cl/contacto/" target="_blank" rel="noreferrer">Ir a contacto <span>↗</span></a>
           </div>
         </div>
@@ -129,7 +130,9 @@ export default function Home() {
           <img src="/images/itagra-logo.png" alt="Itagra Parcelas de Agrado" width="220" height="91" />
           <p>Proyectos para vivir con más<br />naturaleza, espacio y propósito.</p>
           <div className="footer-links">
-            <a href="#itagra">Nosotros</a><a href="#proyecto">Proyectos</a><a href="https://pircasdelliulliu.cl/contacto/" target="_blank" rel="noreferrer">Contacto</a>
+            <a href="mailto:info@itagra.cl">info@itagra.cl</a>
+            <a href="tel:+56948544996">+56 9 4854 4996</a>
+            <a href="#proyecto">Ver proyectos</a>
           </div>
         </div>
         <div className="footer-bottom"><span>© {new Date().getFullYear()} Itagra</span><span>Limache · Región de Valparaíso</span></div>
