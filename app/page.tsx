@@ -1,12 +1,5 @@
 import Image from "next/image";
 
-const projectFacts = [
-  { value: "5.000", unit: "m²", label: "Parcelas totalmente planas" },
-  { value: "30", unit: "min", label: "Desde Viña del Mar" },
-  { value: "90", unit: "min", label: "Desde Santiago" },
-  { value: "2.250", unit: "UF", label: "Valores desde" },
-];
-
 const qualities = [
   {
     number: "01",
@@ -83,38 +76,20 @@ export default function Home() {
           <p>Limache · V Región</p>
         </div>
         <div className="project-info">
-          <p className="eyebrow"><span /> Proyecto destacado</p>
+          <p className="eyebrow"><span /> Proyectos · 01 activo</p>
           <div className="project-number">01</div>
           <Image className="pircas-logo" src="/images/pircas-logo.png" alt="Pircas de Lliu Lliu" width={270} height={91} />
           <h2>Entre la naturaleza<br />y la ciudad.</h2>
-          <p>Parcelas planas en el valle de Limache, rodeadas de espinos, boldos y quillayes. Un lugar donde la calma se encuentra con una ubicación privilegiada.</p>
-          <a className="text-link" href="https://pircasdelliulliu.cl" target="_blank" rel="noreferrer">Explorar el proyecto <span>↗</span></a>
+          <p>Parcelas planas de 5.000 m² en Limache, con rol propio, agua, luz y una ubicación conectada con la ciudad.</p>
+          <div className="project-tags"><span>Limache</span><span>V Región</span><span>Desde 2.250 UF</span></div>
+          <a className="text-link" href="https://pircasdelliulliu.cl" target="_blank" rel="noreferrer">Ver más en Pircas de Lliu Lliu <span>↗</span></a>
         </div>
       </section>
 
-      <section className="facts" aria-label="Características de Pircas de Lliu Lliu">
-        {projectFacts.map((fact) => (
-          <div className="fact" key={fact.label}>
-            <p><strong>{fact.value}</strong> <span>{fact.unit}</span></p>
-            <small>{fact.label}</small>
-          </div>
-        ))}
-      </section>
-
-      <section className="experience">
-        <div className="experience-copy">
-          <p className="eyebrow"><span /> Todo listo para comenzar</p>
-          <h2>La tranquilidad de<br />elegir bien.</h2>
-          <p>Cada parcela cuenta con rol propio, agua y luz canalizadas bajo tierra, caminos interiores trabajados y portón de acceso.</p>
-          <ul>
-            <li><span>01</span> Rol propio individual</li>
-            <li><span>02</span> Agua y luz operativas</li>
-            <li><span>03</span> Accesos consolidados</li>
-          </ul>
-        </div>
-        <div className="experience-image">
-          <Image src="/images/pircas-nature.jpg" alt="Vegetación nativa en Pircas de Lliu Lliu" fill sizes="(max-width: 900px) 100vw, 50vw" />
-        </div>
+      <section className="project-future" aria-label="Próximos proyectos de Itagra">
+        <p>Portafolio Itagra</p>
+        <h2>Este es el comienzo.</h2>
+        <div><span>01 proyecto disponible</span><span>Próximamente nuevos lugares</span></div>
       </section>
 
       <section className="principles">
@@ -132,14 +107,20 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="closing" id="contacto">
+      <section className="contact" id="contacto">
         <Image src="/images/pircas-view.jpeg" alt="Paisaje natural de Lliu Lliu" fill sizes="100vw" />
-        <div className="closing-overlay" />
-        <div className="closing-content">
-          <p className="eyebrow light"><span /> Tu próximo lugar</p>
-          <h2>Hay decisiones que<br />cambian el paisaje.</h2>
-          <p>Descubre Pircas de Lliu Lliu y agenda una visita para conocer el proyecto.</p>
-          <a href="https://pircasdelliulliu.cl/contacto/" target="_blank" rel="noreferrer">Quiero conocer Pircas <span>↗</span></a>
+        <div className="contact-overlay" />
+        <div className="contact-content">
+          <div className="contact-intro">
+            <p className="eyebrow light"><span /> Contacto</p>
+            <h2>Conversemos sobre<br />tu próximo lugar.</h2>
+          </div>
+          <div className="contact-details">
+            <div><small>Proyecto disponible</small><strong>Pircas de Lliu Lliu</strong></div>
+            <div><small>Ubicación</small><strong>Limache · V Región</strong></div>
+            <div><small>Atención comercial</small><strong>Formulario en el sitio del proyecto</strong></div>
+            <a href="https://pircasdelliulliu.cl/contacto/" target="_blank" rel="noreferrer">Ir a contacto <span>↗</span></a>
+          </div>
         </div>
       </section>
 
