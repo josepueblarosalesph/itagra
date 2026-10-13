@@ -86,6 +86,23 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="parcel-plan" id="plano">
+        <div className="parcel-plan-copy">
+          <p className="eyebrow"><span /> Pircas de Lliu Lliu</p>
+          <p className="kicker">Disponibilidad del proyecto</p>
+          <h2>Conoce el plano<br />de las parcelas.</h2>
+          <p>Revisa la distribución y el estado referencial de cada parcela. La disponibilidad puede cambiar, por lo que te recomendamos confirmarla directamente con nuestro equipo.</p>
+          <div className="plan-actions">
+            <a href="/images/plano-pircas-actualizado.png" target="_blank" rel="noreferrer">Abrir plano completo <span>↗</span></a>
+            <a href="https://pircasdelliulliu.cl" target="_blank" rel="noreferrer">Ver más del proyecto <span>↗</span></a>
+          </div>
+        </div>
+        <a className="parcel-plan-image" href="/images/plano-pircas-actualizado.png" target="_blank" rel="noreferrer" aria-label="Abrir plano actualizado de Pircas de Lliu Lliu a tamaño completo">
+          <Image src="/images/plano-pircas-actualizado.png" alt="Plano actualizado de disponibilidad de parcelas de Pircas de Lliu Lliu" fill sizes="(max-width: 900px) 100vw, 58vw" />
+          <span>Plano actualizado · Abrir ↗</span>
+        </a>
+      </section>
+
       <section className="project-future" aria-label="Próximos proyectos de Itagra">
         <p>Portafolio Itagra</p>
         <h2>Este es el comienzo.</h2>

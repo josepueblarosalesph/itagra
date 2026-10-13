@@ -54,6 +54,17 @@ em { color:var(--sage); font-weight:400; }
 .project-tags span { border:1px solid rgba(255,255,255,.25); border-radius:100px; padding:7px 11px; color:rgba(255,255,255,.72); font-size:9px; text-transform:uppercase; letter-spacing:.12em; }
 .text-link { margin-top:45px; padding-bottom:9px; border-bottom:1px solid rgba(255,255,255,.5); font-size:12px; text-transform:uppercase; letter-spacing:.14em; }
 .text-link span { margin-left:30px; }
+.parcel-plan { padding:120px 7vw; background:var(--paper); display:grid; grid-template-columns:.72fr 1.28fr; gap:7vw; align-items:center; }
+.parcel-plan-copy h2 { font-family:var(--font-serif); font-size:clamp(46px,5vw,76px); font-weight:400; line-height:.96; letter-spacing:-.045em; margin:0 0 30px; }
+.parcel-plan-copy > p:not(.eyebrow):not(.kicker) { max-width:470px; color:var(--brown); font-size:14px; line-height:1.8; }
+.plan-actions { display:flex; flex-wrap:wrap; gap:16px 26px; margin-top:38px; }
+.plan-actions a { padding-bottom:8px; border-bottom:1px solid var(--line); font-size:10px; text-transform:uppercase; letter-spacing:.13em; transition:border-color .25s,color .25s; }
+.plan-actions a:hover { color:var(--sage); border-color:var(--sage); }
+.plan-actions span { margin-left:14px; }
+.parcel-plan-image { position:relative; min-height:600px; background:#fff; overflow:hidden; }
+.parcel-plan-image img { object-fit:contain; padding:24px; transition:transform .8s ease; }
+.parcel-plan-image:hover img { transform:scale(1.025); }
+.parcel-plan-image > span { position:absolute; right:22px; bottom:22px; padding:12px 16px; border-radius:100px; background:var(--forest); color:white; font-size:9px; text-transform:uppercase; letter-spacing:.13em; }
 .project-future { padding:70px 7vw; background:var(--paper); display:grid; grid-template-columns:22% 1fr auto; gap:5vw; align-items:center; border-bottom:1px solid var(--line); }
 .project-future > p { font-size:10px; text-transform:uppercase; letter-spacing:.17em; color:var(--brown); }
 .project-future h2 { margin:0; font-family:var(--font-serif); font-weight:400; font-size:clamp(42px,4.5vw,68px); letter-spacing:-.04em; }
@@ -109,6 +120,11 @@ footer { background:#ded7ca; padding:80px 5vw 28px; }
   .project-photo { min-height:65vh; }
   .project-info { padding:80px 22px 85px; }
   .project-number { top:42px; right:22px; }
+  .parcel-plan { padding:85px 22px; display:flex; flex-direction:column; align-items:stretch; gap:45px; }
+  .parcel-plan-copy h2 { font-size:48px; }
+  .parcel-plan-image { min-height:auto; width:100%; aspect-ratio:1.18; }
+  .parcel-plan-image img { padding:8px; }
+  .parcel-plan-image > span { right:12px; bottom:12px; }
   .project-future { padding:55px 22px; display:block; }
   .project-future h2 { margin:18px 0 30px; }
   .project-future > div { text-align:left; }
